@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+* {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#wrapper {
+	min-height: 100%;
+	position: relative;
+}
+
+/* Nav bar */
+.navbar {
+	background-color: #3496f4;
+}
+
+.navbar-toggler {
+	background-color: black;
+}
+
+.navbar>.container-fluid {
+	justify-content: space-between;
+}
+
+.navbar-brand {
+	font-size: 30px;
+	font-weight: bold;
+	padding: 0;
+	color: white;
+}
+
+#loginIcon {
+	margin-top: 5px;
+}
+
+/* 카테고리 버튼 */
+#category-area {
+	margin: 30px;
+}
+
+#category-area>button {
+	border-radius: 20%;
+}
+
+#category-area>button:focus {
+	background-color: black;
+	color: white;
+}
+
+.sideMenu {
+	list-style: none;
+	text-decoration: none;
+	color: inherit;
+}
+
+/* 비디오 부분 */
+.container {
+	max-width: 100%;
+}
+
+#video-area>a {
+	text-decoration: none;
+	color: black;
+}
+
+#video-area>a>.card {
+	width: 400px;
+	height: 300px;
+	margin: 20px;
+	border: none;
+	font-weight: bold;
+	text-align: center;
+	font-size: large;
+}
+
+#video-area>a>.card>iframe {
+	width: 100%;
+}
+
+label {
+	font-weight: bold;
+}
+
+.modal-content>p {
+	font-size: 15px;
+	padding-left: 145px;
+}
+
+#curUser {
+	font-weight: bold;
+	color: white;
+	padding-top: 15px;
+}
+
+.loginWrapper {
+	display: flex;
+	justify-content: center;
+}
+
+#zzimVideoTitle {
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.zzimWatch, .zzimRemove {
+	background-color: #3496f4;
+	color: white;
+	margin: 15px 50px;
+	border-style: none;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+#zzimBtnWrapper {
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px solid gray;
+	margin-bottom: 10px;
+}
+
+.card {
+	border: none;
+}
+
+#zzimTitle {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 15px 0;
+}

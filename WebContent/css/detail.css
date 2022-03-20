@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+* {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#wrapper {
+	min-height: 100%;
+	position: relative;
+}
+/* Nav bar */
+.navbar {
+	background-color: #3496f4;
+}
+
+.navbar-toggler {
+	background-color: black;
+}
+
+.navbar>.container-fluid {
+	justify-content: space-between;
+}
+
+.navbar-brand {
+	font-size: 30px;
+	font-weight: bold;
+	padding: 0;
+	color: white;
+}
+
+#loginIcon {
+	margin-top: 5px;
+}
+
+/* 비디오 */
+#video-area {
+	margin: 50px 0;
+}
+
+.title-info {
+	width: 750px;
+}
+
+#title {
+	font-weight: bolder;
+	font-size: 22px;
+}
+
+#date {
+	font-weight: bold;
+	color: gray;
+	font-size: 15px;
+}
+
+.icon>button {
+	margin: 0 25px;
+	background-color: #3496f4;
+	color: white;
+	text-align: center;
+	font-size: large;
+	height: 50px;
+	font-weight: 400;
+}
+
+#zzim {
+	border-radius: 15px;
+}
+
+#writeReview {
+	border-radius: 25px;
+	width: 100px;
+}
+
+.comment {
+	margin: 20px 50px;
+}
+
+.reviewWrap {
+	display: flex;
+	justify-content: center;
+}
+
+.userInfo {
+	display: flex;
+	flex-direction: column;
+	width: 700px;
+}
+
+.idAndDate {
+	display: flex;
+	font-size: large;
+	font-weight: bolder;
+}
+
+#reviewDate {
+	color: lightgray;
+	text-align: end;
+	font-size: 13px;
+	padding: 5px;
+}
+
+.btnWrap>button {
+	margin: 0 20px;
+	background-color: #3496f4;
+	color: white;
+	border-radius: 30px;
+}
+
+label {
+	font-weight: bold;
+}
+
+.modal-content>p {
+	font-size: 15px;
+	padding-left: 145px;
+}
+
+.sideMenu {
+	list-style: none;
+	text-decoration: none;
+	color: inherit;
+}
+
+#curUser {
+	font-weight: bold;
+	color: white;
+	padding-top: 15px;
+}
+
+.loginWrapper {
+	display: flex;
+	justify-content: center;
+}
+
+#zzimVideoTitle {
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.zzimWatch, .zzimRemove {
+	background-color: #3496f4;
+	color: white;
+	margin: 15px 50px;
+	border-style: none;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+#zzimBtnWrapper {
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px solid gray;
+	margin-bottom: 10px;
+}
+
+.card {
+	border: none;
+}
+
+#zzimTitle {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 15px 0;
+}
